@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.sidebar {
+  background-color: #202020;
+  color: #80807f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 20rem;
+  min-height: 100vh;
+}
+
+.app-container {
+  background-color: #ffffff;
+  color: #202020;
+  max-width: 65rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-left: 22rem;
+  margin-right: 4rem;
+}
+
+.container {
+  max-width: 38rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar-sticky {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.sidebar-nav {
+  padding-left: 0;
+  list-style: none;
+}
+
+.sidebar a {
+  text-decoration-line: none;
+  color: rgb(232, 230, 227);
+}
+
+.sidebar-about h1 {
+  color: rgb(232, 230, 227);
+  margin-top: 0;
+  font-size: 3.25rem;
+}
